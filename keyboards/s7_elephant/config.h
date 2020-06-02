@@ -2,6 +2,10 @@
 
 #include "config_common.h"
 
+/* Don't remove this without also removing EXTRAFLAGS in rules.mk*/
+#define NO_ACTION_MACRO
+#define NO_ACTION_FUNCTION
+
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 16
