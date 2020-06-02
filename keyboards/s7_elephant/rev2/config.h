@@ -25,10 +25,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT         Jacky S7 Elephant Round 2
 #define DESCRIPTION     A high-end 70% custom keyboard
 
-/* key matrix size */
-#define MATRIX_ROWS 5
-#define MATRIX_COLS 16
-
 /*
  * Keyboard Matrix Assignments
  *
