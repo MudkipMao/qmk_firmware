@@ -5,12 +5,17 @@
 A high-end 70% custom keyboard designed and produced by [jacky](https://geekhack.org/index.php?action=profile;u=63864) from Geekhack.
 
 Keyboard Maintainer: QMK Community  
-Hardware Supported: S7 Elephant  
-Hardware Availability: [The GB has ended with little chance to run again.](https://geekhack.org/index.php?topic=96434.0)  
+Hardware Supported: S7 Elephant rev1, rev2 
+Hardware Availability: [The GB has had 2 rounds with little chance to run again.](https://geekhack.org/index.php?topic=96434.0)  
 
 Make example for this keyboard (after setting up your build environment):
 
-    make s7_elephant:default:dfu
+    make s7_elephant/rev2:default
+
+Install examples:
+
+    make s7_elephant/rev1:default:dfu         # For rev1 (2018 run)
+    make s7_elephant/rev2:default:dfu         # For rev1 (2019 run)
 
 To enter the bootloader, either short the pins on the PCB or the RESET button on the FN layer.
 

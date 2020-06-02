@@ -17,8 +17,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#include "config_common.h"
-
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xA13B // Hexidecimal A13B will be Jacky's vendor ID
 #define PRODUCT_ID      0x0008 // 8 for S7++
@@ -40,7 +38,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * DIODE_DIRECTION: COL2ROW = COL = Anode (+), ROW = Cathode (-, marked on diode)
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
- */
+ *
+ *                        0   1   2   3   4   5   6   7   8   9   A   B   C   D   E   F   */
 #define MATRIX_ROW_PINS { B0, B1, B2, B3, B7 }
 #define MATRIX_COL_PINS { D0, D1, D2, D3, D5, D4, D6, D7, B4, F7, F6, F5, F4, F1, F0, E6 }
 
@@ -62,8 +61,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #define RGBLIGHT_VAL_STEP 8
     #define RGBLIGHT_LIMIT_VAL 255 /* The maximum brightness level */
     #define RGBLIGHT_SLEEP  /* If defined, the RGB lighting will be switched off when the host goes to sleep */
-/*== all animations enable ==*/
-    #define RGBLIGHT_ANIMATIONS
+// /*== all animations enable ==*/
+//     #define RGBLIGHT_ANIMATIONS
 // /*== or choose animations ==*/
 //     #define RGBLIGHT_EFFECT_BREATHING
 //     #define RGBLIGHT_EFFECT_RAINBOW_MOOD
