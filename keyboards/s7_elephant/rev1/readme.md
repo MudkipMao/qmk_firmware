@@ -10,7 +10,7 @@ Hardware Availability: [The GB has ended with little chance to run again.](https
 
 Make example for this keyboard (after setting up your build environment):
 
-    make s7_elephant/v1:default:dfu
+    make s7_elephant/rev1:default:dfu
 
 To enter the bootloader, either short the pins on the PCB or the RESET button on the FN layer.
 
